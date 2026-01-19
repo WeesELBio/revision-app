@@ -4,10 +4,32 @@ body {
     margin: auto;
 }
 
+#title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+details {
+    margin-bottom: 6px;
+}
+
+#menu {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#modeBox {
+    margin: 15px 0;
+}
+
 #answers button {
     display: block;
-    margin: 6px 0;
     width: 100%;
+    margin: 6px 0;
+}
+
+#buttons {
+    margin-top: 10px;
 }
 
 .correct {
