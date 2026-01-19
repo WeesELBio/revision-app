@@ -7,32 +7,36 @@
 </head>
 <body>
 
-<h1>Revision Program</h1>
+<h1 id="title">Revision Program</h1>
 
-<section id="controls">
-    <h2>Topics</h2>
-    <div id="topicBox"></div>
+<!-- TOPIC MENU -->
+<div id="menu"></div>
 
-    <h3>Mode</h3>
-    <label><input type="radio" name="mode" value="normal" checked> Normal</label>
-    <label><input type="radio" name="mode" value="hard"> Hard</label>
+<!-- MODE -->
+<div id="modeBox">
+    <label>
+        <input type="radio" name="mode" value="normal" checked>
+        Normal
+    </label>
+    <label>
+        <input type="radio" name="mode" value="hard">
+        Hard
+    </label>
+</div>
 
-    <br><br>
-    <button onclick="nextQuestion()">Start / Next Question</button>
-</section>
+<!-- QUESTION -->
+<h2 id="questionText"></h2>
 
-<hr>
+<!-- ANSWERS -->
+<div id="answers"></div>
 
-<section id="questionArea">
-    <h2 id="questionText"></h2>
-
-    <div id="answers"></div>
-
-    <br>
+<!-- BUTTONS -->
+<div id="buttons">
     <button onclick="checkAnswer()">Check Answer</button>
+    <button onclick="nextQuestion()">Next Question</button>
+</div>
 
-    <p id="feedback"></p>
-</section>
+<p id="feedback"></p>
 
 <script src="script.js"></script>
 </body>
