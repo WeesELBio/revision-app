@@ -11,6 +11,16 @@
             "Oxygen",
             "Nitrogen"
           ]
+        },
+        {
+          "question": "What is the general formula of a monosaccharide?",
+          "correct": "Cn(H2O)n",
+          "options": [
+            "CnH2n",
+            "Cn(H2O)n",
+            "C2H6O",
+            "CH4"
+          ]
         }
       ]
     }
