@@ -1,35 +1,84 @@
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     max-width: 900px;
     margin: auto;
+    padding: 10px;
 }
 
-#title {
+h1 {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+#menu {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
 details {
     margin-bottom: 6px;
 }
 
-#menu {
-    border: 1px solid #ccc;
-    padding: 10px;
+summary {
+    font-weight: bold;
+    cursor: pointer;
 }
 
 #modeBox {
     margin: 15px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#modeBox label {
+    cursor: pointer;
+}
+
+#questionText {
+    font-size: 1.3em;
+    margin-bottom: 10px;
 }
 
 #answers button {
     display: block;
     width: 100%;
     margin: 6px 0;
+    padding: 12px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+#answers input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 #buttons {
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#buttons button {
+    padding: 12px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 .correct {
@@ -38,4 +87,34 @@ details {
 
 .wrong {
     background-color: #f7b6b6;
+}
+
+/* ---------- MOBILE-SPECIFIC ---------- */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #questionText {
+        font-size: 1.1em;
+    }
+
+    #answers button {
+        font-size: 0.95em;
+        padding: 10px;
+    }
+
+    #answers input[type="text"] {
+        font-size: 0.95em;
+        padding: 8px;
+    }
+
+    #buttons button {
+        font-size: 0.95em;
+        padding: 10px;
+    }
+
+    #modeBox {
+        gap: 10px;
+    }
 }
