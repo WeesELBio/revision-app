@@ -41,17 +41,17 @@
       			"Oppositely charged ions attract.",
       			"Weak attractions form between molecules."
       		]
-        	},
-        	{
-        		"question": "Why does covalent bonding form stable molecules?",
-        		"correct": "Because both atoms have their outer shells filled.",
-        		"options": [
-        			"Because both atoms have their outer shells filled.",
-        			"Because electrons are completely removed.",
-        			"Because ions are produced.",
-        			"Because the molecules become charged."
-        		]
-        	},
+      	},
+      {
+        "question": "Why does covalent bonding form stable molecules?",
+        "correct": "Because both atoms have their outer shells filled.",
+        "options": [
+        		"Because both atoms have their outer shells filled.",
+        		"Because electrons are completely removed.",
+        		"Because ions are produced.",
+        		"Because the molecules become charged."
+        ]
+      	},
         	{
         		"question": "What causes ionic bonding?",
         		"correct": "Electrostatic attraction between ions with opposite charges.",
