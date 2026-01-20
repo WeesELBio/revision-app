@@ -2,26 +2,25 @@
   "Biology": {
     "Biological Molecules": {
       "Carbohydrates - Monosaccharides": [
-        {
-          "question": "Which element is not found in carbohydrates?",
-          "correct": "Nitrogen",
-          "options": [
-            "Carbon",
-            "Hydrogen",
-            "Oxygen",
-            "Nitrogen"
-          ]
-        },
-        {
-          "question": "What is the general formula of a monosaccharide?",
-          "correct": "Cn(H2O)n",
-          "options": [
-            "CnH2n",
-            "Cn(H2O)n",
-            "C2H6O",
-            "CH4"
-          ]
-        }
+        {"question":"What are carbohydrates?","correct":"Carbon molecules combined with water.","options":["Carbon molecules combined with water.","Proteins made of amino acids.","Lipids composed of glycerol and fatty acids.","Nucleic acids made of nucleotides."]},
+        {"question":"What is the general formula for simple sugars (monosaccharides)?","correct":"(CH2O)n","options":["(CH2O)n","C6H12O6","CH4O","CnH2n+2O"]},
+        {"question":"Why is carbon important in biological molecules?","correct":"Because carbon atoms form strong bonds with other carbon atoms and create long chains forming molecular backbones.","options":["Because carbon atoms form strong bonds with other carbon atoms and create long chains forming molecular backbones.","Because carbon atoms cannot form bonds with hydrogen.","Because carbon is a metal that conducts electricity.","Because carbon only forms single bonds with oxygen."]},
+        {"question":"Which elements mainly make up biological molecules?","correct":"Carbon, hydrogen, oxygen, and nitrogen.","options":["Carbon, hydrogen, oxygen, and nitrogen.","Carbon, hydrogen, sulfur, and phosphorus.","Hydrogen, oxygen, calcium, and iron.","Carbon, oxygen, potassium, and sodium."]},
+        {"question":"What is a monomer?","correct":"A small, repeating unit such as monosaccharides, amino acids, or nucleotides.","options":["A small, repeating unit such as monosaccharides, amino acids, or nucleotides.","A large chain of polysaccharides or proteins.","A molecule that cannot join with others.","An inorganic ion in cells."]},
+        {"question":"What is a polymer?","correct":"A long chain of monomers joined together.","options":["A long chain of monomers joined together.","A single sugar unit.","A molecule made only of water.","A simple ion found in salts."]},
+        {"question":"What is the monomer of carbohydrates?","correct":"Monosaccharide.","options":["Monosaccharide.","Amino acid.","Nucleotide.","Fatty acid."]},
+        {"question":"What is formed when two monosaccharides join together?","correct":"A disaccharide.","options":["A disaccharide.","A polysaccharide.","A protein.","A nucleic acid."]},
+        {"question":"What is formed when many monosaccharides join together?","correct":"A polysaccharide.","options":["A polysaccharide.","A disaccharide.","A peptide.","A lipid."]},
+        {"question":"What are the characteristics of monosaccharides?","correct":"Sweet-tasting, soluble, single sugar units.","options":["Sweet-tasting, soluble, single sugar units.","Bitter, insoluble, large molecules.","Fatty, insoluble, energy-storing molecules.","Sour, polymeric molecules only."]},
+        {"question":"What is the carbon number of glucose?","correct":"Six (hexose sugar).","options":["Six (hexose sugar).","Five (pentose sugar).","Three (triose sugar).","Seven (heptose sugar)."]},
+        {"question":"What is the molecular formula of glucose?","correct":"C6H12O6","options":["C6H12O6","C5H10O5","C3H6O3","C7H14O7"]},
+        {"question":"Which two isomers does glucose have?","correct":"Alpha-glucose and beta-glucose.","options":["Alpha-glucose and beta-glucose.","Fructose and galactose.","Monosaccharide and disaccharide.","Ribose and deoxyribose."]},
+        {"question":"What defines a reducing sugar?","correct":"A sugar that donates electrons and reduces other chemicals.","options":["A sugar that donates electrons and reduces other chemicals.","A sugar that cannot react with any reagents.","A sugar that forms polymers only.","A sugar that is insoluble in water."]},
+        {"question":"Which sugars are reducing sugars?","correct":"All monosaccharides and some disaccharides such as maltose.","options":["All monosaccharides and some disaccharides such as maltose.","Only polysaccharides.","All disaccharides except maltose.","Only monosaccharides that are insoluble."]},
+        {"question":"What reagent is used in Benedict’s test for reducing sugars?","correct":"Alkaline copper(II) sulfate.","options":["Alkaline copper(II) sulfate.","Iodine solution.","Biuret reagent.","Hydrochloric acid."]},
+        {"question":"What is observed if a reducing sugar is present in Benedict’s test?","correct":"Formation of a red precipitate of copper(I) oxide.","options":["Formation of a red precipitate of copper(I) oxide.","Solution turns blue.","Solution turns purple.","Formation of a black precipitate."]},
+        {"question":"What is the first step in Benedict’s test?","correct":"Add 2 cm3 of the food sample to a test tube.","options":["Add 2 cm3 of the food sample to a test tube.","Heat the solution first.","Add iodine solution.","Grind the sample after heating."]},
+        {"question":"Why is the sample sometimes ground with water in Benedict’s test?","correct":"To make a solution if the sample is solid.","options":["To make a solution if the sample is solid.","To change the sugar type.","To remove impurities.","To cool the mixture."]}
       ]
     }
   }
